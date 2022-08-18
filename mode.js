@@ -33,12 +33,6 @@ function totalPrice(){
     }
     document.querySelector('#finalPrice').value = sum
 }
-/**let delBtns=document.querySelectorAll('.delete')
-for (let i=0; i<delBtns.length ; i++){
-    delBtns[i].addEventListener ('click',function(){
-        delBtns[i].element.classList.remove(".item")
-    })
-}/** */
 function del() {
     var element = document.getElementById("myDIV");
     element.remove("div");
