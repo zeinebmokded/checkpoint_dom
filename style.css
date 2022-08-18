@@ -1,0 +1,117 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+} 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(/mode/Z.M\ \(4\).png);
+    background-size: 24%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.shopping-cart {
+    
+    height: 2000px;
+    margin: 80px auto;
+    background: whitesmoke;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    height: 80px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: #a0339e;
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+
+.item {
+    padding: 20px 30px;
+    height: 350px;
+    display: flex;
+    
+}
+
+button {
+    border: none;
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+.like {
+    margin-left: 20px;
+}
+
+i {
+    color:rgb(158, 158, 158)
+}
+
+.image {
+    margin-right: 50px;
+    margin-left: 50px;
+   
+    
+}
+    
+.description {
+    display: block;
+    margin-right: 40px;
+    margin-top: 10%;
+}
+
+span{
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.quantity input {
+    
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+.price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+    margin-top: 10%;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#finalPrice {
+    border: none;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}

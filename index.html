@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Zénobie</title>
+</head>
+<body>
+<div class="shopping-cart">
+    <!-- Title -->
+        <div class="title">
+            Zénobie Shop
+        <span >Zénobie c'est une reine rebelle qui a défié Rome , ceci est ma boutique et je suis une passionée de la mode"Zeineb Mokded"</h2>
+        </div>
+
+    <!-- Product #1 -->
+        <div class="item" id="myDIV">
+                <button onclick="del()" class="delete"> X </button>
+                <button class="like"> <i class="fa fa-heart fa-1x" ></i> </button>
+            
+                <div class="image">
+                <img src="/mode/02617d_964b83bcbd764e4cb416e9bacf7509f1_mv2.webp" height="300" alt="" />
+                </div>
+
+                <div class="description">
+                <span>Une tenue colorée</span>
+                <span>second hand</span>
+                <span>rose et vert</span>
+                </div>
+
+                <div class="quantity">
+                <button class="minus-btn" type="button" name="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                    </svg>
+                </button>
+                <input type="text" class="QNT" value="1">
+                <button class="plus-btn" type="button" name="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                </button>
+                </div>
+
+                <div class="price">60</div>
+        </div>
+    
+    <!-- Product #2 -->
+        <div class="item" id="myDIV">
+            <button onclick="del()" class="delete"> X </button>
+            <button  class="like"> <i class="fa fa-heart fa-1x" ></i> </button>
+        
+            <div class="image">
+            <img src="/mode/02617d_5685f6c21340408fa6f94e0e221940c0_mv2.webp" height="300" alt=""/>
+            </div>
+        
+            <div class="description">
+            <span>70s style</span>
+            <span>tenue vintage</span>
+            <span>second hand</span>
+            </div>
+        
+            <div class="quantity">
+            <button class="minus-btn" type="button" name="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                </svg>
+            </button>
+            <input type="text" class="QNT" value="1">
+            <button class="plus-btn" type="button" name="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                </svg>
+            </button>
+            </div>
+        
+            <div class="price">70</div>
+        </div>
+    
+    <!-- Product #3 -->
+    <div class="item" id="myDIV">
+        <button onclick="del()" class="delete"> X </button>
+        <button  class="like"> <i class="fa fa-heart fa-1x" ></i> </button>
+    
+        <div class="image">
+        <img src="/mode/290087077_2070062683166841_4239036897448019707_n.jpg"  height="300" width="190" alt="" />
+        </div>
+    
+        <div class="description">
+        <span>Total look blanc</span>
+        <span>feather</span>
+        <span>second hand</span>
+        </div>
+    
+        <div class="quantity">
+        <button class="minus-btn" type="button" name="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+            </svg>
+        </button>
+        <input type="text" class="QNT" value="1">
+        <button class="plus-btn" type="button" name="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+            </svg>
+        </button>
+        </div>
+        <div class="price"> 80</div>
+</div>
+         <!-- Product #4 -->
+         <div class="item" id="myDIV">
+            <button onclick="del()" class="delete"> X </button>
+            <button  class="like"> <i class="fa fa-heart fa-1x" ></i> </button>
+        
+            <div class="image">
+            <img src="/mode/02617d_10fb040291624763b6d79c1232090226_mv2.webp" height="280" width="220" alt="" />
+            </div>
+        
+            <div class="description">
+            <span>Jebba Traditionnelle</span>
+            <span>soie</span>
+            <span>second hand</span>
+            </div>
+        
+            <div class="quantity">
+            <button class="minus-btn" type="button" name="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                </svg>
+            </button>
+            <input type="text" class="QNT" value="1">
+            <button class="plus-btn" type="button" name="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                </svg>
+            </button>
+            </div>
+            <div class="price"> 90</div>
+        </div>
+<!-- Product #5 -->
+<div class="item" id="myDIV">
+    <button onclick="del()" class="delete"> X </button>
+    <button class="like"> <i class="fa fa-heart fa-1x" ></i> </button>
+
+    <div class="image">
+    <img src="/mode/lo.webp" height="320" width="200" alt="" />
+    </div>
+
+    <div class="description">
+    <span>Party Mode</span>
+    <span>Robe à paillettes</span>
+    <span>second hand</span>
+    </div>
+
+    <div class="quantity">
+    <button class="minus-btn" type="button" name="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+        </svg>
+    </button>
+    <input type="text" class="QNT" value="1">
+    <button class="plus-btn" type="button" name="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg>
+    </button>
+    </div>
+    <div class="price"> 100</div>
+</div>
+
+        <div class="total">
+            
+            <p>Total Price:</p>
+            <input type="text" id="finalPrice" value="1768">
+            
+        </div>
+</div>
+
+<script src="mode.js">
+</script> 
+</body>
+</html>
